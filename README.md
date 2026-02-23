@@ -1,4 +1,4 @@
-# PubMed-Apify
+# PMC Paper Finder
 An Apify actor that searches PubMed Central for scientific papers matching your query and returns their titles, authors, journals, publication dates, and free full-text links.
 Needs an apify account. 
 
