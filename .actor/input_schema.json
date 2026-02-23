@@ -6,18 +6,19 @@
     "query": {
       "title": "Search Query",
       "type": "string",
-      "description": "PubMed query string, e.g. 'ADHD AND insomnia' or 'depression AND cognitive behavioral therapy'",
+      "description": "PubMed query string",
       "editor": "textfield"
     },
     "year": {
       "title": "Publication Year",
       "type": "string",
-      "description": "Filter by year, e.g. '2024'",
+      "description": "Filter by year, e.g. '2024'. Leave empty for all years.",
       "editor": "textfield"
     },
     "ncbiApiKey": {
       "title": "NCBI API Key",
       "type": "string",
+      "description": "Optional. Get a free key at ncbi.nlm.nih.gov/account to increase rate limits.",
       "isSecret": true,
       "editor": "textfield"
     }
