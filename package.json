@@ -1,0 +1,12 @@
+{
+  "name": "pubmed-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.mjs",
+  "scripts": {
+    "start": "node src/main.mjs"
+  },
+  "dependencies": {
+    "apify": "^3.0.0"
+  }
+}

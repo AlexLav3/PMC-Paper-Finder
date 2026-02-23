@@ -1,0 +1,26 @@
+{
+  "title": "PubMed Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "query": {
+      "title": "Search Query",
+      "type": "string",
+      "description": "PubMed query string, e.g. 'ADHD AND insomnia' or 'depression AND cognitive behavioral therapy'",
+      "editor": "textfield"
+    },
+    "year": {
+      "title": "Publication Year",
+      "type": "string",
+      "description": "Filter by year, e.g. '2024'",
+      "editor": "textfield"
+    },
+    "ncbiApiKey": {
+      "title": "NCBI API Key",
+      "type": "string",
+      "isSecret": true,
+      "editor": "textfield"
+    }
+  },
+  "required": ["query"]
+}
